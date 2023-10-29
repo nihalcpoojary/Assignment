@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="cal.css">
+</head>
+<body>
+    <div class="container">
+        <div class="result">
+            <input type="text" name="" id="result">
+            <button onclick="erasei()" class="btn">AC</button>
+
+        </div>
+
+
+        <div class="buttons">
+
+            <div class="row">                    
+                <button onclick="clicki(9)" >9</button>
+                <button onclick="clicki(8)">8</button>
+                <button onclick="clicki(7)">7</button>
+                <button onclick="clicki('+')" id="bt1">+</button>
+                
+            </div>
+            
+            <div class="row">
+               <button onclick="clicki(4)">4</button>
+               <button onclick="clicki(5)">5</button>
+               <button onclick="clicki(6)">6</button>
+               <button onclick="clicki('-')" id="bt1">-</button>
+                
+            </div>            
+
+            <div class="row">
+                <button onclick="clicki(1)">1</button>
+                <button onclick="clicki(2)">2</button>
+                <button onclick="clicki(3)">3</button>
+                <button onclick="clicki('/')" id="bt1">/</button>             
+            </div>
+
+            <div class="row">
+                <button onclick="clicki('.')">.</button>
+                <button onclick="clicki(0)">0</button>
+                <button onclick="equali('=')">=</button>
+                <button onclick="clicki('*')" id="bt1">*</button>               
+            </div>
+        </div>
+    </div>
+    <script src="cal.js"></script>
+    
+</body>
+</html>
